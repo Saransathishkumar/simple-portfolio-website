@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    border-bottom: solid 1px black;
+    align-items: center;
+}
+.navbar__s1__title{
+    color: rgb(145, 62, 166);
+}
+.navbar__s2{
+    padding: 10px;
+    border: solid black 3px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.categories{
+    display: flex;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+.categories p{
+    background-color: #A435F0;
+    color: white;
+    padding: 8px;
+    border-radius: 30px;
+
+}
+.sale-image img{
+    width: 100%;
+}
+.recommended{
+    padding: 10px;
+}
+.recommended__container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+.recommended__container img{
+    height: 220px;
+    width: 300px;
+}
+.topics{
+    padding: 10px;
+}
+.topics_container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.topics_container p{
+    border: solid 2px black;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.popular__container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.popular__container img{
+    height: 220px;
+    width: 300px;
+}
+.popular__title{
+    margin-top: 10px;
+}
+.popular{
+    padding: 10px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+}
+.footer__title p{
+    padding: 10px;
+    margin-left: 20px;
+}
+.footer__two{
+    background-color: black;
+    color: rgb(120, 109, 109);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer__two__1{
+    margin-left: 30px;
+}
+
+
+@media screen and (max-width:600px) {
+    .navbar{
+        gap: 4px;
+    } 
+    .navbar__s2{
+    padding: 6px;
+    border: solid black 2px;
+    border-radius: 30px;
+    width: 30%;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+    font-size: 8px;
+}
+    .navbar__s1__title{
+        font-size: 20px;
+    }
+    .navbar__s3{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 8px;
+    font-weight: 200;
+}
+.categories{
+    display: flex;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+.categories p{
+    background-color: #A435F0;
+    color: white;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 7px;
+    font-weight: 300;
+
+}
+.popular__container{
+    display: flex;
+    gap: 2px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 6px;
+}
+.popular__container img{
+    height: 40px;
+    width: 80px;
+}
+.popular__title{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.popular{
+    padding: 8px;
+}
+.recommended__container{
+    display: flex;
+    gap: 2px;
+    justify-content: space-around;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    font-size: 4px;
+}
+.recommended__container img{
+    height: 50px;
+    width: 80px;
+}
+.recommended__title{
+    font-size: 20px;
+}
+.recommended__title p{
+    font-size: 10px;
+}
+.topics{
+    padding: 10px;
+}
+.topics_container{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.topics_container p{
+    border: solid 2px black;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+.topics__title{
+    font-size: 10px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+}
+.footer__title p{
+    padding: 10px;
+    margin-left: 20px;
+}
+.footer__two{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 8px;
+}
+.footer__two__1{
+    margin-left: 30px;
+}
+
+}
